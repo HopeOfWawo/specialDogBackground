@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+body {
+  height: 100%;
+  width: 100%;
+  display: table-cell;
+}
+/* body {  font: 13px/1.231 arial,helvetica,clean,sans-serif;  min-width: 1340px; } */
+a {
+  text-decoration: none;
+}
+ul, ol {
+  list-style: none;
+}
+.clearfixed:after {
+  content: '';
+  visibility: hidden;
+  height: 0;
+  display: block;
+  clear: both;
+}
